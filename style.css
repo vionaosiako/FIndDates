@@ -18,6 +18,12 @@
     height: 400px;
 }
 
+.btnCorol{
+  background-color: #ff0080;
+}
+
+
+
   @media screen and (max-width:700px){
       
       

@@ -12,7 +12,7 @@
     <title>Find the day</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bgColor">
+    <nav class="navbar navbar-expand-lg navbar-dark bgColor fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">DateFinder</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,8 +73,34 @@
         <h1>About Us</h1>
         <p>Do you know the day you were born? Keep calm. We offer a platform that enables you know the day you were born. All you require is to fill in the date you were born and select your gender. Our system will do the rest.</p>
         <p>The system will also display your Akan  Name. Akan name depends on the day of the week your born and your gender. You can also find your peers Akan name. Don't you think its fun! </p>
-        <button>TRY IT OUT !</button>
+        <button type="button" class="btn btnCorol btn-lg">TRY IT OUT !</button>
+
       </div>
+    </div><!--End of about Us-->
+
+    <div class="calendar" id="calendar">
+      <h1>Fill in the form</h1>
+
+      <div>
+        <form action="">
+          <label for="date">Select date of birth:</label><br>
+          <input type="date" name="" id=""><br>
+
+          <label for="gender">Select your gender:</label><br>
+          <input type="radio" name="gender" id="gender" value="male">Male <br>
+          <input type="radio" name="gender" id="gender" value="female">Female <br>
+
+          <button type="button" class="btn btnCorol btn-lg">Submit</button>
+        </form>
+
+      </div>
+
+      <div>
+        <video width="320" height="240" autoplay muted>
+          <source src="images/birth.gif" type="gif">
+        </video>
+      </div>
+                  
     </div>
   
 
