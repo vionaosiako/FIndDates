@@ -9,11 +9,12 @@
 
   .aboutUs{
       display: flex;
-      /* justify-content: center; */
+      align-items: center;
+      background-color: #00FF7F;
   }
 
   .aboutUs img{
-    height: 300px;
+    height: 400px;
 }
 
   @media screen and (max-width:700px){
