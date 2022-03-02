@@ -22,7 +22,20 @@
   background-color: #ff0080;
 }
 
+.calendar{
+  display: flex;
+  align-items: center;
+  background-color: #f59bae;
+}
 
+.formCalendar{
+  width: 100%;
+  margin-left: 20px;
+}
+
+.calendar img{
+  width: 100%;
+}
 
   @media screen and (max-width:700px){
       
