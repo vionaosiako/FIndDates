@@ -22,6 +22,11 @@
     height: 400px;
 }
 
+.bntNav{
+  text-decoration: none;
+  color: black;
+}
+
 .btnCorol{
   background-color: #ff0080;
 }

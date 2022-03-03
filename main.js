@@ -1,6 +1,3 @@
-function callCalendar(){
-    document.getElementById("calendar").innerHTML = <a class="nav-link" href="#calendar">Calendar</a>;
-}
 // Array for the months of the year
 
 
@@ -59,7 +56,19 @@ function getDay(dateString) {
   
     // get the day of the week
     const { nameOfDay } = getDay(dateOfBirth);
-    alert(nameOfDay);
+    
+
+    var genderVal  = genderCheck();
+
+    alert(nameOfDay, genderVal);
   }
 
-  
+  function genderCheck(){
+    var gender = document.getElementById("sex");
+    // alert(gender.elements["gender"].value);
+
+    // var genderValue = gender.elements["gender"].value;
+    // return genderValue;
+    // return gender;
+      
+  }
