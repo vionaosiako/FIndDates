@@ -37,6 +37,12 @@
   width: 100%;
 }
 
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
   @media screen and (max-width:800px){
     .aboutUs{
       flex-direction: column;
@@ -49,4 +55,10 @@
       flex-direction: column-reverse;
     }
     
+  }
+
+  @media screen and (max-width:350px){
+    footer{
+      flex-wrap: wrap;
+    }    
   }
