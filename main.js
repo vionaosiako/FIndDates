@@ -1,11 +1,3 @@
-// Array for the months of the year
-
-
-// let month = new Array("January","February","March","April","May","June","July","August","September","Octombr","November","Decmber");
-
-//Array for days of the week
-// let weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
-
 function getDay(dateString) {
     //Array for days of the week
     let weekday = new Array(
@@ -44,12 +36,6 @@ function getDay(dateString) {
     return { MM, DD, year, CC, YY, dayOfWeek, nameOfDay };
   }
   
-  // get the day of the week
-//   const { nameOfDay } = getDay("1998-01-01");
-  
-  // print data
-//   alert(nameOfDay)
-
   function dayBorn() {
     // get the date
     const dateOfBirth = document.getElementById("dateOfBirth").value;
