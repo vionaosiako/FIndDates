@@ -1,3 +1,6 @@
+function checkRequired(){
+
+}
 function getDay(dateString) {
     //Array for days of the week
     let weekday = new Array(
@@ -37,6 +40,8 @@ function getDay(dateString) {
   }
   
   function dayBorn() {
+
+    checkRequired();
     // get the date
     const dateOfBirth = document.getElementById("dateOfBirth").value;
   
@@ -56,5 +61,7 @@ function getDay(dateString) {
     // var genderValue = gender.elements["gender"].value;
     // return genderValue;
     // return gender;
-      
+          
   }
+
+  let gender = document.querySelector('input[name="gender"]').value;  console.log(gender);
