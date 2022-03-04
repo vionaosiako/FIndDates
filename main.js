@@ -1,9 +1,5 @@
 let gender;
-// let Male;
-// let Female;
-function checkRequired(){
 
-}
 function getDay(dateString) {
     //Array for days of the week
     let weekday = new Array(
@@ -58,86 +54,80 @@ function getDay(dateString) {
       
       if(nameOfDay == "Monday")
       {
-        alert("Kwando");
+        alert("Your Akhan Name: Kwando");
         // console.log("Kwasi");
       }
 
       else if(nameOfDay == "Teusday")
       {
-        alert("Kwabena");
+        alert("Your Akhan Name: Kwabena");
       }
 
       else if(nameOfDay == "Wednesday")
       {
-        alert("Kwaku");
+        alert("Your Akhan Name: Kwaku");
       }
       else if(nameOfDay == "Thursday")
       {
-        alert("Yaw");
+        alert("Your Akhan Name: Yaw");
       }
       else if(nameOfDay == "Friday")
       {
-        alert("Kofi");
+        alert("Your Akhan Name: Kofi");
       }
       else if(nameOfDay == "Saturday")
       {
-        alert("Kwame");
+        alert("Your Akhan Name: Kwame");
+      }
+      else if(nameOfDay == "Sunday")
+      {
+        alert("Your Akhan Name: Kwasi");
       }
       else
       {
-        alert("Kwasi");
+        alert("Date of birth is required");
       }
     }
 
     if(gender == "Female"){
       if(nameOfDay == "Monday")
       {
-        alert("Adwoa");
+        alert("Your Akhan Name: Adwoa");
         // console.log("Kwasi");
       }
 
       else if(nameOfDay == "Teusday")
       {
-        alert("Abenna");
+        alert("Your Akhan Name: Abenna");
       }
 
       else if(nameOfDay == "Wednesday")
       {
-        alert("Akua");
+        alert("Your Akhan Name: Akua");
       }
       else if(nameOfDay == "Thursday")
       {
-        alert("Yaa");
+        alert("Your Akhan Name: Yaa");
       }
       else if(nameOfDay == "Friday")
       {
-        alert("Afua");
+        alert("Your Akhan Name: Afua");
       }
       else if(nameOfDay == "Saturday")
       {
-        alert("Ama");
+        alert("Your Akhan Name: Ama");
       }
-      else 
+      else if(nameOfDay == "Sunday")
       {
-        alert("Akosua");
+        alert("Your Akhan Name: Akosua");
       }
-    }
-
-    
+      else
+      {
+        alert("Date of birth is required");
+      }
+    }  
 
     // alert(nameOfDay);
-  }
-
-  function genderCheck(){
-    //Get the value of the gender selected
-    // gender = document.querySelector('input[name="gender"]:checked').value;
-    // return gender;    
-    // console.log(gender);
-    
-    
-
-
-           
   }
 
 

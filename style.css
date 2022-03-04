@@ -17,7 +17,7 @@
   }
 
   .nav-link a:hover{
-    color: #00FF7F;
+    color: #00FF7F!important;
   }
 
   .aboutUs{
