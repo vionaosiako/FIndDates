@@ -23,6 +23,7 @@
 ## BDD
 --------------------
 ## Reference
+* https://stackoverflow.com/questions/15839169/how-to-get-value-of-selected-radio-button
 * https://www.hscripts.com/scripts/JavaScript/weekday-born.php
 * https://www.w3schools.com/js/
 * lms

@@ -1,3 +1,6 @@
+let gender;
+// let Male;
+// let Female;
 function checkRequired(){
 
 }
@@ -47,21 +50,95 @@ function getDay(dateString) {
   
     // get the day of the week
     const { nameOfDay } = getDay(dateOfBirth);
+
+    gender = document.querySelector('input[name="gender"]:checked').value;
+    console.log(gender);
+
+    if(gender == "Male"){
+      
+      if(nameOfDay == "Monday")
+      {
+        alert("Kwando");
+        // console.log("Kwasi");
+      }
+
+      else if(nameOfDay == "Teusday")
+      {
+        alert("Kwabena");
+      }
+
+      else if(nameOfDay == "Wednesday")
+      {
+        alert("Kwaku");
+      }
+      else if(nameOfDay == "Thursday")
+      {
+        alert("Yaw");
+      }
+      else if(nameOfDay == "Friday")
+      {
+        alert("Kofi");
+      }
+      else if(nameOfDay == "Saturday")
+      {
+        alert("Kwame");
+      }
+      else
+      {
+        alert("Kwasi");
+      }
+    }
+
+    if(gender == "Female"){
+      if(nameOfDay == "Monday")
+      {
+        alert("Adwoa");
+        // console.log("Kwasi");
+      }
+
+      else if(nameOfDay == "Teusday")
+      {
+        alert("Abenna");
+      }
+
+      else if(nameOfDay == "Wednesday")
+      {
+        alert("Akua");
+      }
+      else if(nameOfDay == "Thursday")
+      {
+        alert("Yaa");
+      }
+      else if(nameOfDay == "Friday")
+      {
+        alert("Afua");
+      }
+      else if(nameOfDay == "Saturday")
+      {
+        alert("Ama");
+      }
+      else 
+      {
+        alert("Akosua");
+      }
+    }
+
     
 
-    var genderVal  = genderCheck();
-
-    alert(nameOfDay, genderVal);
+    // alert(nameOfDay);
   }
 
   function genderCheck(){
-    var gender = document.getElementById("sex");
-    // alert(gender.elements["gender"].value);
+    //Get the value of the gender selected
+    // gender = document.querySelector('input[name="gender"]:checked').value;
+    // return gender;    
+    // console.log(gender);
+    
+    
 
-    // var genderValue = gender.elements["gender"].value;
-    // return genderValue;
-    // return gender;
-          
+
+           
   }
 
-  let gender = document.querySelector('input[name="gender"]').value;  console.log(gender);
+
+  
