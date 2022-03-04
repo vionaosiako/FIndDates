@@ -1,5 +1,9 @@
 let gender;
+// let Male;
+// let Female;
+function checkRequired(){
 
+}
 function getDay(dateString) {
     //Array for days of the week
     let weekday = new Array(
@@ -93,7 +97,6 @@ function getDay(dateString) {
       if(nameOfDay == "Monday")
       {
         alert("Your Akhan Name: Adwoa");
-        // console.log("Kwasi");
       }
 
       else if(nameOfDay == "Teusday")
@@ -125,9 +128,23 @@ function getDay(dateString) {
       {
         alert("Date of birth is required");
       }
-    }  
+    }
+
+    
 
     // alert(nameOfDay);
+  }
+
+  function genderCheck(){
+    //Get the value of the gender selected
+    // gender = document.querySelector('input[name="gender"]:checked').value;
+    // return gender;    
+    // console.log(gender);
+    
+    
+
+
+           
   }
 
 
